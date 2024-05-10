@@ -10,7 +10,7 @@
     "start": "npx nodemon --watch src -e js,ts,tsx,jsx server_build/bundle.js"
   },
   "author": "yuanjianming",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "@types/express": "^4.17.21",
