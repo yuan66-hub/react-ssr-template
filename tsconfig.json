@@ -1,0 +1,24 @@
+{
+      "compilerOptions": {
+        "module":"CommonJS",
+        "typeRoots": ["node_modules/@types"],
+        "types":["node"],
+        "jsx":"react-jsx",
+        "lib":["dom","dom.iterable","esnext"],
+        // "allowJS":true,
+        "skipLibCheck":true,
+        "esModuleInterop":true,
+        "allowSyntheticDefaultImports":true,
+        "strict":true,
+        "forceConsistentCasingInFileNames":true,
+        "moduleResolution":"node",
+        "resolveJsonModule":true,
+        // "isolateModules":true,
+        "baseUrl":"./",
+        "paths":{
+           "@/*":["./src/*"],
+           
+        }
+      },
+      "include":["src/**/*"]
+}
